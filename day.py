@@ -15,8 +15,24 @@
 # v = len(str(val))
 # print (v)
 
-for i in range(5):
-    print("*"*(i+1))
-print(5*"1")
+# for i in range(5):
+#     print("*"*(i+1))
+# print(5*"1")
 
+# sum = 0
+# number = 0
+# while number  < 5 :
+#     number = number +1  1   2   3
+#     sum += number        1   3  6
+#     if sum>5:
+#         break
+# print("the number is" ,number)
+# print("sum is " ,sum)
+
+for num in range(2,10):
+    for x in range(2,num):
+        print(x,num)
+        continue
+    else:
+        print('heel')
     
